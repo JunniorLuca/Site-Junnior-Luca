@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}*
+
+
+.logomarca {
+    width: 23%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    left: 36%;
+    margin-top: 1.3rem;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -3;
+}
+
+.foto-1 {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    width: 24.05rem;
+    position: absolute;
+    top: 2.2vh;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.texto {
+    width: 80vw;
+    display: flexbox;
+    margin: 6vh;
+    margin-left: 0px;
+    color: antiquewhite;
+}
+
+
+h1 {
+    width: 100%;
+    display: inline-block;
+    font-family: "Righteous", sans-serif;
+    font-style: bold;
+    font-size: 3.75rem;
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: .05em .05em 0 rgb(118, 118, 119);
+}
+
+p {
+    margin: 5vh 10vw;
+    font-family: "Righteous", sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    text-shadow: .05em .05em 0 rgb(118, 118, 119);
+}
+
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-style: bold;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: .05em .05em 0 rgb(118, 118, 119);
+}
+
+.button-call {
+    font-family: "Righteous", sans-serif;
+    margin-left: 33%;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-color: gray;
+    color: #fff;
+    box-shadow: 0 0 40px 40px gray inset, 0 0 0 0 gray;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(68, 67, 67);
+        box-shadow: 0 0 10px 0 gray inset, 0 0 10px 4px gray;
+    }
+
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px gray;
+    }
+}
+
+.footer {
+    margin: 5vh 37% 0;
+    width: 15vw;
+    height: 6vh;
+    padding: 1px;
+}
+
+.instagram {
+    width: 50px;
+    margin-right: 7px;
+}
+
+.youtube {
+    width: 50px;
+}
